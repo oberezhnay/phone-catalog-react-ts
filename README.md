@@ -1,9 +1,63 @@
-# React TypeScript Starter Pack
+# Phone Catalog
 
-To use this template click `Use this template`
+**Phone Catalog** — a single-page application for browsing and managing a catalog of mobile phones. The project allows users to explore phones, view detailed information, add items to favorites, and manage a shopping cart. The main goal of the project is to practice building a scalable frontend application using modern React tooling.
 
-### Available Scripts
+## 🔗 Live Preview
+  - [DEMO LINK](https://oberezhnay.github.io/phone-catalog-react-ts/)
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+## 🎨 Design Reference
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+  - [Figma design](https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)
+
+## 🛠 Technologies Used
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **React Router DOM**
+- **SCSS**
+- **GitHub Actions** (CI/CD)
+- **GitHub Pages** (deployment)
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/oberezhnay/phone-catalog-react-ts.git
+cd phone-catalog-react-ts
+```
+
+### 2. Install dependencies
+
+```
+npm install
+# or
+yarn install
+```
+
+### 3. Run the project locally
+
+```
+npm start
+# or
+yarn start
+```
+
+## Features:
+
+- 📋 Browse phone catalog
+
+- 🔍 View detailed phone information
+
+- ❤️ Add and remove phones from favorites
+
+- 🛒 Shopping cart with quantity control
+
+- 💾 State persistence for cart and favorites
+
+- 🌐 Client-side routing (SPA)
+
+- 📱 Responsive layout

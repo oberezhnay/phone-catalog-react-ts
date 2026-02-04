@@ -1,5 +1,3 @@
-// import { ProductCategory } from "./ProductCategory";
-
 export type Product = {
   id: number;
   category: string;

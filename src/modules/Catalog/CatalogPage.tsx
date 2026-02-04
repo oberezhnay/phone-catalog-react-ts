@@ -85,10 +85,6 @@ export const CatalogPage = () => {
     prevPerPage.current = perPage;
   }, [sort, perPage, updateParam]);
 
-  // useEffect(() => {
-  //   updateParam('page', '1');
-  // }, [perPage, sort, updateParam]);
-
   const sortedProducts = useMemo(() => {
     if (!sort) {
       return products;
